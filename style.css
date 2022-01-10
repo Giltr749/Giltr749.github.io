@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height:100%
+}
+
+body {
+  background-image: linear-gradient(to bottom right, #225378, #1695A3);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+.button {
+  background-color: #3d6ded;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 120px;
+}
+
+.card {
+  text-align: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, #F3FFE2, #ACF0F2);
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+  box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px;
+  padding: 50px;
+}
+/*
+  .nav-item {
+  align-self: flex-end;
+  color: #3d6ded;
+  font-size: 18px;
+  margin: 15px;
+  text-decoration: none;
+}
+*/
+.page-wrapper {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.profile-image {
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+  font-size: 32px;
+  height: 180px;
+  margin: 50px;
+  width: 180px;
+}
+
+#myName {
+  font-size: 1.5rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+}
+
+nav {
+  padding: .5rem 0 .5rem 0;
+  background-image: linear-gradient(to bottom right, #F3FFE2, #ACF0F2);
+  -webkit-box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+  box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  width: 110%;
+  margin-left: -1rem;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 1rem;
+  text-align: center;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+
+nav li {
+  display: inline-block;
+  color: black;
+  margin:0 3rem 0 3rem;
+  flex-basis: 20%;
+}
+
+nav a {
+  text-decoration: none;
+  display: block;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem;
+  color: black;
+  border-radius: 10px;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+a:not([name="navlink"]) {
+  text-decoration: none;
+  color:#F3FFE2;
+}
+
+.itclink {
+  margin-left: .5rem;
+  margin-bottom: 1rem;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  overflow: hidden;
+}
+
+.socials{
+  margin:-2rem 0 0 0;
+  padding:0 0 0 200rem;
+  float: right;
+  display: flex;
+  position: fixed;
+  margin-right: .5rem;
+  margin-bottom: 1rem;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.socials ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+
+.socials li {
+ margin: 0 .5rem 0 .5rem;
+}
+
+form {
+  margin: 1rem 0 1rem 0;
+}
+
+label,p {
+  display: block;
+  text-align: left;
+  padding:1rem 0 .5rem 0;
+}
+
+input:not([type="radio"]):not([type="checkbox"]) {
+  border: 1px solid black;
+  display: block;
+  font-size: 1rem;
+}
+
+select, textarea {
+  display: block;
+}
+
+select {
+  font-size: 1rem;
+}
+
+.rate {
+  margin-bottom: -1rem;
+}
+
+legend {
+  text-align: left;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+fieldset {
+  border: 1px solid #225378;
+  border-radius:10px;
+  margin-bottom: 2rem;
+}
+
+.ast {
+  padding-top: 0;
+  margin-top: -1.5rem;
+  text-align: right;
+  font-size: .9rem;
+}
+
+textarea {
+  height: 10rem;
+  padding: 1rem;
+  width: 20rem;
+}
+
+/*
+
+-------------------ICONS------------------
+
+<i class="fab fa-stack-overflow"></i>
+<i class="fab fa-linkedin-in"></i>
+<i class="fab fa-github"></i>
+<i class="fab fa-discord"></i>
+
+
+*/

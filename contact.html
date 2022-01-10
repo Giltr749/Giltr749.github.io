@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="./style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/2757034583.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section>
+        <div>
+          <nav>
+            <ul>
+            <li class="nav-item"><a href="index.html" name="navlink">Home</a></li>
+            <li class="nav-item"><a href="#" name="navlink">About</a></li>
+            <li class="nav-item"><a href="contact.html" name="navlink">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+    </section>
+    <section>
+        <div class="page-wrapper">
+            <div class="card">
+            <h1>Contact Me</h1>
+            <p>Please fill in your contact information, and tell me how i can improve my web page!</p>
+            <form>
+                <fieldset>
+                    <legend>Your contact information:</legend>
+                    <label for="fname">*First Name:</label>
+                    <input type="text" id="fname" name="fname">
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname">
+                    <label for="email">*Email</label>
+                    <input type="email" id="email" name="email">
+                </fieldset>
+                <fieldset>
+                    <legend>Tell me how I can improve:</legend>
+                    <label for="know">How did you come by my website?</label>
+                    <select id="know" name="know">
+                        <option slected>-- Select One Option --</option>
+                        <option value="friend">Friends / Family</option>
+                        <option value="social">Social Media</option>
+                        <option value="ads">Online Advertisment</option>
+                        <option value="itc">Israel Tech Challenge</option>
+                    </select>
+                    <p class="rate">How would you rate my website?</p>
+                    <label class="radio"><input type="radio" name="rate" value="Awful">Awful</label>
+                    <label class="radio"><input type="radio" name="rate" value="bad">Bad</label>
+                    <label class="radio"><input type="radio" name="rate" value="okay">Okay</label>
+                    <label class="radio"><input type="radio" name="rate" value="good">Good</label>
+                    <label class="radio"><input type="radio" name="rate" value="amazing" checked>Amazing!</label>
+                    <label for="comments">Other Comments:</label>
+                    <textarea id="comments" name="comments" placeholder="Please type anything you would like me to know here."></textarea>
+                    <label for="back">
+                    <input type="checkbox" value="back" name="back" id="back">Check this box if you would like me to contact you back.</label>
+                </fieldset>
+                <p class="ast">Fields with marked with a "&nbsp;*&nbsp;" must be filled.</p>
+            </form>
+        </div>
+        </div>
+    </section>
+          <div class="itclink"><a href="https://www.itc.tech/">&#169; Israel Tech Challenge</a></div>
+      <div class="socials">
+        <ul>
+          <li><a href="https://stackoverflow.com/users/17871081/giltr?tab=profile"><i class="fab fa-stack-overflow fa-2x"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/gil-treitel-3a3966207"><i class="fab fa-linkedin-in fa-2x"></i></a></li>
+          <li><a href="https://github.com/Giltr749"><i class="fab fa-github fa-2x"></i></a></li>
+          <li><a href="https://www.discord.com/users/Gük#8924/"><i class="fab fa-discord fa-2x"></i></a></li>
+        </ul>
+      </div>
+</body>
+</html>
