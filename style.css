@@ -230,6 +230,38 @@ textarea {
   color: #1695A3 ;
 }
 
+.about {
+  display: block;
+  text-align: left;
+  align-items: left;
+}
+
+.about ul {
+  list-style-type: none;
+  padding-left: 0;
+  font-weight: bold;
+}
+
+.about ul ul {
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+  font-weight: normal;
+}
+
+.about li {
+  margin: .3rem 0 .3rem 0;
+}
+
+.about h3 {
+  /* border: 1px solid red; */
+  margin-bottom: 0;
+}
+
+.about p {
+  /* border: 1px solid black; */
+  padding-top: 0;
+}
+
 /*
 
 -------------------ICONS------------------
@@ -238,6 +270,6 @@ textarea {
 <i class="fab fa-linkedin-in"></i>
 <i class="fab fa-github"></i>
 <i class="fab fa-discord"></i>
-
+<i class="fab fa-whatsapp"></i>
 
 */
