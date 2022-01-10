@@ -83,8 +83,9 @@ nav {
   position: fixed;
   overflow: hidden;
   top: 0;
-  width: 110%;
-  margin-left: -1rem;
+  left: 0;
+  width: 100%;
+  /* margin-left: -1rem; */
 }
 
 nav ul {
