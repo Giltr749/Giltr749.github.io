@@ -205,9 +205,14 @@ fieldset {
   margin-bottom: 2rem;
 }
 
+.improve {
+  margin-bottom: 0;
+}
+
 .ast {
-  padding: .2rem 0 .2rem 0;
-  text-align: left;
+  padding-top: 0;
+  margin: 0 0 1rem 0;
+  text-align: right;
   font-size: .9rem;
 }
 
