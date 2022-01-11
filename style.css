@@ -223,17 +223,25 @@ textarea {
   border-radius: 10px;
   background-color: #1695A3;
   color: #F3FFE2;
+  cursor: pointer;
+  -webkit-box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 1);
+  box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 1);
 }
 
 [type="submit"]:hover {
   background: none ;
   color: #1695A3 ;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
 }
 
 .about {
   display: block;
   text-align: left;
   align-items: left;
+  width: 600px;
 }
 
 .about ul {
@@ -253,13 +261,64 @@ textarea {
 }
 
 .about h3 {
-  /* border: 1px solid red; */
   margin-bottom: 0;
 }
 
 .about p {
-  /* border: 1px solid black; */
   padding-top: 0;
+}
+
+.map {
+  display: block;
+  margin-bottom: .5rem;
+}
+
+.maps {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btns {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background-color: #1695A3;
+  color: #F3FFE2;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 1);
+  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 1);
+}
+
+.btn:hover {
+  background: none ;
+  color: #1695A3 ;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.btn:disabled {
+  color: #F3FFE2;
+  background-color: #777;
+  cursor: not-allowed;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.prev {
+  margin-right: 1em;
 }
 
 /*
