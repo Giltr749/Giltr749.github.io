@@ -19,18 +19,23 @@ const srcs = [
     currentlySelected++;
     map.src = srcs[currentlySelected];
     prevBtn.disabled = false;
+    prevBtn.hidden = false;
   
-    if(srcs.length === currentlySelected+1)
-    nextBtn.disabled = true;
+    if(srcs.length === currentlySelected+1){
+      nextBtn.disabled = true;
+      nextBtn.hidden = true;
+  }
   });
   
   prevBtn.addEventListener(`click`, function(){
     currentlySelected--;
     map.src = srcs[currentlySelected];
     nextBtn.disabled = false;
+    nextBtn.hidden = false;
   
     if (currentlySelected === 0){
         prevBtn.disabled = true;
+        prevBtn.hidden = true;
     }
   });
   

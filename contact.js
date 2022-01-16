@@ -6,7 +6,7 @@ let knowmethod;
 
 
 document.addEventListener(`click`, function(){
-    if (document.getElementById(`fname`).value === `` || document.getElementById(`email`).value === `` || document.getElementById(`know`).value === ``){
+    if (document.getElementById(`fname`).value.length === 0 || document.getElementById(`email`).value.length === 0 || document.getElementById(`know`).value === ``){
         subBtn.disabled = true;
     }
     else {
@@ -51,5 +51,12 @@ subBtn.addEventListener(`click`, function(){
     }
     else {
         console.log(`You left a comment: ` + document.getElementById(`comments`).value+`.`);
+    }
+
+    if (document.getElementById(`back`).checked === true) {
+        console.log (`I will contact you at ` + document.getElementById(`email`).value);
+    }
+    else {
+        console.log(`You requested that I don't contact you.`)
     }
 });
