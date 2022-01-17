@@ -71,9 +71,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 50px;
+  margin: 50px 50px 100px 50px;
   padding: 50px;
-  
 }
 
 .page-wrapper {
@@ -113,7 +112,6 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  /* margin-left: -1rem; */
 }
 
 nav ul {
@@ -157,7 +155,7 @@ a:not([name="navlink"]) {
   color:#F3FFE2;
 }
 
-.itc {
+.footerlinks {
   color: #F3FFE2;
   margin-left: .5rem;
   margin-bottom: 1rem;
@@ -167,10 +165,22 @@ a:not([name="navlink"]) {
   overflow: hidden;
 }
 
+.footerlinks ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+
+.footerlinks li {
+  margin: 0 .5rem 0 .5rem;
+}
+
 .socials{
   margin:-2rem 0 0 0;
   padding:0 0 0 200rem;
-  float: right;
   display: flex;
   position: fixed;
   margin-right: .5rem;
@@ -178,13 +188,13 @@ a:not([name="navlink"]) {
   right: 0;
   bottom: 0;
   overflow: hidden;
+  padding-left: 20rem;
 }
 
 .socials ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  text-align: center;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-evenly;
@@ -356,14 +366,33 @@ textarea {
   margin-right: 1em;
 }
 
+footer {
+  background-color: #225378;
+  height: 4rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.built {
+  text-align: center;
+  padding: 1.5rem;
+  color: #F3FFE2;
+}
+
 /*
 
 -------------------ICONS------------------
 
-<i class="fab fa-stack-overflow"></i>
-<i class="fab fa-linkedin-in"></i>
-<i class="fab fa-github"></i>
-<i class="fab fa-discord"></i>
-<i class="fab fa-whatsapp"></i>
+<i class="fab fa-stack-overflow"></i>   STACK OVERFLOW
+<i class="fab fa-linkedin-in"></i>      LINKEDIN
+<i class="fab fa-github"></i>           GITHUB
+<i class="fab fa-discord"></i>          DISCORD
+<i class="fab fa-whatsapp"></i>         WHATSAPP
+
+<i class="fas fa-home"></i>             HOME
+<i class="fas fa-info"></i>             ABOUT
+<i class="fas fa-envelope"></i>         CONTACT
 
 */
