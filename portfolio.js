@@ -8,7 +8,7 @@ fetch(GITHUB_URL)
     const profileImage = document.getElementById("profile-image");
     profileImage.src = data.avatar_url;
     const myName = document.getElementById(`myName`);
-    myName.textContent = data.name;
+    myName.textContent = data.login;
   });
 
 function $(x) {
@@ -25,3 +25,6 @@ for(let i=0; i<=(langs.length-1); i++){
 }
 
 $(`built`).textContent = used ;
+
+
+langs.join();

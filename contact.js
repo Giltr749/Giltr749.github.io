@@ -5,7 +5,7 @@ let knowmethod;
 
 
 
-document.addEventListener(`click`, function(){
+document.addEventListener(`change`, function(){
     if (document.getElementById(`fname`).value.length === 0 || document.getElementById(`email`).value.length === 0 || document.getElementById(`know`).value === ``){
         subBtn.disabled = true;
     }
@@ -27,7 +27,6 @@ document.addEventListener(`click`, function(){
     }
 
 });
-
 
 subBtn.addEventListener(`click`, function(){
     
