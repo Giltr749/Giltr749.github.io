@@ -28,7 +28,7 @@ document.addEventListener(`change`, function(){
 
 });
 
-subBtn.addEventListener(`click`, function(){
+subBtn.addEventListener(`change`, function(){
     
     console.log(`First Name: ` + document.getElementById(`fname`).value);
     
